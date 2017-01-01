@@ -1,50 +1,76 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<%@ include file="/WEB-INF/views/header.jsp" %>
     
-	<title>Small Business</title>
-	
-	<!-- Bootstrap Core CSS -->
-    <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/small-business.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-	
-	<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">ForBetterWeb</a>
+    <!-- Main Content -->
+    <div class="container-fluid container-90">
+        <div class="row">
+        
+        	<div class="col-md-3">
+                <div class="post-preview">
+                    <a href="page.html">
+                        <p class="post-meta">September 24, 2014</p>
+                        <img class="img-responsive" src="<c:url value="/resources/img/caralog4.jpg"/>">
+                        <h2 class="post-title">
+                            Future Is Green
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                        </h3>
+                    </a>
+                </div>
             </div>
-		</div>
-	</nav>
-	
-</body>
-</html>
+            
+            <div class="col-md-3">
+                <div class="post-preview">
+                    <a href="page.html">
+                        <p class="post-meta">September 18, 2014</p>
+                        <img class="img-responsive" src="<c:url value="/resources/img/caralog5.jpg"/>">
+                        <h2 class="post-title">
+                            Keep Your Balance
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="post-preview">
+                    <a href="page.html">
+                        <p class="post-meta">August 24, 2014</p>
+                        <img class="img-responsive" src="<c:url value="/resources/img/caralog6.jpg"/>">
+                        <h2 class="post-title">
+                            Business Group
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="post-preview">
+                    <a href="page.html">
+                        <p class="post-meta">July 8, 2014</p>
+                        <img class="img-responsive" src="<c:url value="/resources/img/caralog1.jpg"/>">
+                        <h2 class="post-title">
+                            Financial Institutions
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <hr>
+
+    <!-- Footer -->
+    <%@ include file="/WEB-INF/views/footer.jsp" %>
