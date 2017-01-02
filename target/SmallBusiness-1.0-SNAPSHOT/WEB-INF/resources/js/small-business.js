@@ -8,7 +8,7 @@
 
 $(function() {
 
-    $("input,textarea").jqBootstrapValidation({
+    /*$("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -63,7 +63,7 @@ $(function() {
         filter: function() {
             return $(this).is(":visible");
         },
-    });
+    });*/
 
     $("a[data-toggle=\"tab\"]").click(function(e) {
         e.preventDefault();
