@@ -26,6 +26,15 @@ public class ContactFormController {
 	@Autowired
 	private MailSender mailSender;
 
+	@RequestMapping("/register")
+    public String registerCustomer(Model model){
+        Customer customer = new Customer();
+
+        model.addAttribute("customer", customer);
+
+        return "registerCustomer";
+    }
+	
 	@RequestMapping(value="/register.html", method=RequestMethod.POST)
 	public String register(@Valid @ModelAttribute("customer") Customer customer, BindingResult result, Model model){
 		
